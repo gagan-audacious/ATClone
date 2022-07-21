@@ -1,7 +1,9 @@
 import React from "react";
 import AppRoutes from "@constants/AppRoutes";
 import Services from "@pages/Home/Services";
-import service from "@assets/images/services-1.jpg";
+import dev from "@assets/images/dev.jpg";
+import testing from "@assets/images/testing.jpg";
+import consult from "@assets/images/consultation.jpg";
 import { Container, Figure, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./styles.less";
@@ -34,13 +36,11 @@ const Service = () => {
                 <div className="inner-box">
                   <div className="image-box">
                     <Figure className="image-box">
-                      <Figure.Image src={service} />
+                      <Figure.Image src={dev} />
                     </Figure>
                   </div>
                   <div className="lower-content">
-                    <h3>
-                      Development
-                    </h3>
+                    <h3>Development</h3>
                     <div className="text">
                       Web development includes everything from planning and
                       designing to coding and testing. We as web developers use
@@ -57,13 +57,11 @@ const Service = () => {
                 <div className="inner-box">
                   <div className="image-box">
                     <Figure className="image-box">
-                      <Figure.Image src={service} />
-                    </Figure> 
+                      <Figure.Image src={testing} />
+                    </Figure>
                   </div>
                   <div className="lower-content">
-                    <h3>
-                      Testing
-                    </h3>
+                    <h3>Testing</h3>
                     <div className="text">
                       Our company specialises in testing websites and
                       applications. We have a team of experts who are skilled in
@@ -81,13 +79,11 @@ const Service = () => {
                 <div className="inner-box">
                   <div className="image-box">
                     <Figure className="image-box">
-                      <Figure.Image src={service} />
+                      <Figure.Image src={consult} />
                     </Figure>
                   </div>
                   <div className="lower-content">
-                    <h3>
-                      Business Consultation
-                    </h3>
+                    <h3>Business Consultation</h3>
                     <div className="text">
                       We all know that business consultation is very important
                       for any company. It is always the best option to contact a

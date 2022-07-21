@@ -8,15 +8,16 @@ import { Link } from "react-router-dom";
 import "./styles.less";
 
 const About = () => {
-  
   const [readMore, setReadMore] = useState<boolean>(false);
-  
+
   const buttonOnClick = () => {
-    const e = document.querySelector("[class='theme-btn btn-style-box']") as HTMLElement
+    const e = document.querySelector(
+      "[class='theme-btn btn-style-box']"
+    ) as HTMLElement;
     e.style.display = "none";
     setReadMore(!readMore);
-  }
-  
+  };
+
   const extraContent = (
     <>
       <div className="text">
@@ -168,12 +169,12 @@ const About = () => {
       <section className="why-choose-us">
         <Container fluid>
           <Row>
-            <Col lg={6} md={12} sm={12} className="image-column">
+            <Col xl={6} lg={12} md={12} sm={12} className="image-column">
               <Figure className="image-box">
                 <Figure.Image src={Whychoose} />
               </Figure>
             </Col>
-            <Col lg={6} md={12} sm={12} className="content-cloumn">
+            <Col xl={6} lg={12} md={12} sm={12} className="content-cloumn">
               <div className="inner-column">
                 <div className="sec-title left">
                   <h2>Why Choose Us</h2>
@@ -208,10 +209,10 @@ const About = () => {
       {/* <Features /> */}
 
       <section className="featured-section">
-        <Container fluid>
+        <Container>
           <Row className="clearfix">
             <Col className="content-cloumn">
-              <div className="inner-column" style={{left: "8%"}}>
+              <div className="inner-column">
                 <div className="sec-title left">
                   <h2>Why to go for Audacious Technologies:</h2>
                   <div className="separater"></div>
