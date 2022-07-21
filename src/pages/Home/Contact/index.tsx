@@ -79,22 +79,24 @@ const ContactUs = () => {
                 <li>
                   {" "}
                   <i className="far fa-envelope"></i> <span>Email:</span> <br />{" "}
-                  Email@example.com
+                  <h6>Email@example.com</h6>
                 </li>
                 <li>
                   {" "}
                   <i className="fas fa-phone-volume"></i> <span>Call Us:</span>{" "}
-                  <br /> (+91) 1234 5678 9012
+                  <br /> <h6>(+91) 1234 5678 9012</h6>
                 </li>
                 <li>
                   <i className="far fa-clock"></i> <span>Office Time:</span>{" "}
-                  <br /> Monday to Friday 9:00 AM - 6:00 PM
+                  <br /> <h6>Monday to Friday 9:00 AM - 6:00 PM</h6>
                 </li>
                 <li>
                   <i className="fas fa-map-marker-alt"></i>{" "}
                   <span>Office Address:</span> <br />
-                  Plot No. 47, Second Floor, G S Plaza, Scheme No 78 - III, Part
-                  II, Vijay Nagar, Indore, Madhya Pradesh 452010
+                  <h6>
+                    Plot No. 47, Second Floor, G S Plaza, Scheme No 78 - III,
+                    Part II, Vijay Nagar, Indore, Madhya Pradesh 452010
+                  </h6>
                 </li>
               </ul>
             </div>

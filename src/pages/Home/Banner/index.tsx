@@ -23,7 +23,12 @@ const Banner = () => {
                       </Figure>
                     </div>
                     <div className="link-box">
-                      <Link to={AppRoutes.CONTACT} className="theme-btn btn-style-one">Read More</Link>
+                      <Link
+                        to={AppRoutes.ABOUT}
+                        className="theme-btn btn-style-one"
+                      >
+                        Read More
+                      </Link>
                     </div>
                   </div>
                 </div>
